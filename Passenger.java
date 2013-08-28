@@ -3,7 +3,7 @@
  * Passenger class that represents either a "dummy" passenger or a passenger with a reservation
  */
 public class Passenger {
-	//variables that represent the name, address, and phone number of the passenger
+	// variables that represent the name, address, and phone number of the passenger
 	private String name;
 	private String address;
 	private String phoneNumber;

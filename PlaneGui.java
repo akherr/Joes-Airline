@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 /**
- * Collection of buttons, panels, labels, text fields, and text areas that makes up the Joe's Airline GUI
+ *  Collection of buttons, panels, labels, text fields, and text areas that makes up the Joe's Airline GUI
  * 
  * @author Austin Herr 
  * @version 1.0

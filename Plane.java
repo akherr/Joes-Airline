@@ -6,7 +6,7 @@
 import java.util.Scanner;
 public class Plane {
     
-    //instantiates a grid of passengers
+    // instantiates a grid of passengers
     Passenger[][] plane = new Passenger[10][3];
     //scanner to read from the keyboard
     Scanner scan = new Scanner(System.in);
