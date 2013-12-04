@@ -377,7 +377,7 @@ public class PlaneGui extends JPanel
             _row = Integer.parseInt(passengerSeatRow.getText());
             _col = Integer.parseInt(passengerSeatCol.getText());
             JOptionPane bleh = new JOptionPane();
-            if(bob.checkIf(_row, _col) == true)
+            if(bob.ifSeatEmpty(_row, _col) == true)
             {
                 if(name != "" && address != "" && phone != "" && ( _col < 3 && _col > 0)  && (_row < 10 && _row > 0))
                 {
@@ -530,7 +530,7 @@ public class PlaneGui extends JPanel
         {
             _row = Integer.parseInt(passengerSeatRow.getText());
             _col = Integer.parseInt(passengerSeatCol.getText());
-            check = bob.checkIf(_row, _col);
+            check = bob.ifSeatEmpty(_row, _col);
             if(( _col < 3 && _col > 0)  && (_row < 10 && _row > 0))
             {
                 if(check == true)
@@ -559,7 +559,7 @@ public class PlaneGui extends JPanel
         public void actionPerformed(ActionEvent event)
         {
             _name = passengerName.getText();
-            check = bob.checkIf(_name);
+            check = bob.nameCheck(_name);
             if(_name != "")
             {
                

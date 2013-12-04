@@ -73,7 +73,7 @@ public class Plane {
      * @param r the row of the plane
      * @param c the column of the plane
      */
-    public Boolean checkIf(int r, int c)
+    public Boolean ifSeatEmpty(int r, int c)
     {
         Boolean isIt = false;
         if(plane[r][c].getName() == "dummy")
@@ -87,7 +87,7 @@ public class Plane {
      * @return isIt returns true or false if the person is on the plane or not
      * @param name the name of the passenger
      */
-    public Boolean checkIf(String name)
+    public Boolean nameCheck(String name)
     {
         Boolean isIt = false;
         for(int i = 0; i < 10; i++)
