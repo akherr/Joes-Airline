@@ -55,7 +55,9 @@ public class Passenger {
 	}
 	public String toString()
 	{
-	    String result = name + "\n" + address + "\n" + phoneNumber;
+	    String result =   "<html><b><u>Name:</b></i>  " + name + " \n"
+	    				+ "<html><b><u>Address:</b></u>  " + address + "\n" 
+	    				+ "<html><b><u>Phone Number:</b></u> " + phoneNumber + "\n";
 	    return result;
 	}
 

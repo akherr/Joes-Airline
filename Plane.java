@@ -116,7 +116,7 @@ public class Plane {
             {
                 if(plane[i][j].getName().equals(name))
                 {
-                    result = plane[i][j].toString() + "Row:" + i + " Seat:" + j;
+                    result = plane[i][j].toString() + "<html><b><u>Seat Assignment:</b></u> Row:" + i + " Seat:" + j;
                 }
             }
         }

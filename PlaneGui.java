@@ -565,18 +565,18 @@ public class PlaneGui extends JPanel
                
                 if(check == false)
                 {
-                    bleh.showMessageDialog(null, "Passenger Not Found", "Message", JOptionPane.ERROR_MESSAGE);
+                    bleh.showMessageDialog(null, "Passenger Not Found", "Passenger Search", JOptionPane.ERROR_MESSAGE);
                     resetStuff();
                 }
                 else
                 {
-                    bleh.showMessageDialog(null, "Passenger Found:" + "\n" + bob.searchPassenger(_name), "Message", JOptionPane.INFORMATION_MESSAGE);
+                    bleh.showMessageDialog(null, "<html> <b> Passenger Found: </b> </html>" + "\n" + bob.searchPassenger(_name), "Passenger Search", JOptionPane.INFORMATION_MESSAGE);
                     resetStuff();
                 } 
             }
             else
             {
-                bleh.showMessageDialog(null, "No Name Given", "Message", JOptionPane.ERROR_MESSAGE);
+                bleh.showMessageDialog(null, "No Name Given", "Passenger Search", JOptionPane.ERROR_MESSAGE);
             }
                 
         }
