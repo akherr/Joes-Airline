@@ -90,12 +90,11 @@ public class Plane {
     public Boolean checkIf(String name)
     {
         Boolean isIt = false;
-        String _name = name;
         for(int i = 0; i < 10; i++)
         {
             for(int j = 0; j < 3; j++)
             {
-                if(plane[i][j].getName() == _name)
+                if(plane[i][j].getName().equals(name))
                 {
                     isIt = true;
                 }
@@ -115,9 +114,9 @@ public class Plane {
         {
             for(int j = 0; j < 3; j++)
             {
-                if(plane[i][j].getName() == name)
+                if(plane[i][j].getName().equals(name))
                 {
-                    result = plane[i][j].toString();
+                    result = plane[i][j].toString() + "Row:" + i + " Seat:" + j;
                 }
             }
         }
